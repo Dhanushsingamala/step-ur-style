@@ -7,8 +7,8 @@ const Offers = () => {
   return (
     <div className="offers">
         <div className="offers-left">
-            <h1>Exclusive</h1>
-            <h1>Offers For You</h1>
+            <h2>Flat Rs.1000/- off</h2>
+            <h2>on cart value above Rs.4999</h2>
             <p>ONLY ON THIS CHRISTMAS</p>
             <button>Check out</button>
         </div>
