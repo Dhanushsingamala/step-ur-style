@@ -62,6 +62,14 @@ const  {addToCart} = useContext(ShopContext);
                 <div>XL</div>
                 <div>XXL</div>
             </div>
+            <h1>Select color</h1>
+            <div className="product-size">
+                <div>blue</div>
+                <div>black</div>
+                <div>white</div>
+                <div>orange</div>
+                <div>beige</div>
+            </div>
         </div>
             <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
             <p className="product-category"><span>Category: </span>Women, T-shirt, Crop Top </p>
