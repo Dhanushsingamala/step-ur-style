@@ -36,7 +36,7 @@ const  {addToCart} = useContext(ShopContext);
           <img src={star_icon} alt="" />
           <img src={star_icon} alt="" />
           <img src={star_dull_icon} alt="" />
-          <p>(122)</p>
+          <p> {Math.floor(Math.random() * (999 - 100 + 1)) + 100} responses</p>
         </div>
         <div className="producdisplay-right-prices">
           <div className="productdisplay-right-price-old">
